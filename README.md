@@ -2,10 +2,10 @@
 
 # Contents
 
-- [Dependencies](#Dependencies)
-- [Data](#Data)
-- [Training](#Training)
-- [Models](#Models)
+- [Dependencies](# Dependencies)
+- [Data](# Data)
+- [Training](# Training)
+- [Models](# Models)
 
 # Dependencies
 
