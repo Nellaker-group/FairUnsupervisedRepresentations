@@ -29,7 +29,7 @@ For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm
 
 # Background and Motivations
 
-[1,2,3](#references)
+Previous works using BBBC021v1 data have shown it’s possible to learn deep representations capturing biological (MOA) knowledge [[1,2,3]](#references). Furthermore, one study has shown the presence of a strong confounder, as BBBC021v1 representations also encode spurious knowledge capable of discriminating treatments according to their imaging batch [[2]](#references).  However, no detailed analyses have been undertaken to asses the impact such bias is having on learned data representations, in particular whether it’s feasible to remove nuisance knowledge encoded in learned embeddings. In our work, we showed how it’s possible to learn unbiased representations encoding biological (MOA) knowledge and invariant to the batch effect confounder.
 
 # Training
 
