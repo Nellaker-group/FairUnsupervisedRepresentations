@@ -35,6 +35,5 @@ For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm
 
 # References
 
-1. (https://www.biorxiv.org/content/early/2016/11/02/085118)[A]
+1. [I'm an inline-style link](https://www.biorxiv.org/content/early/2016/11/02/085118)
 
-2. 
