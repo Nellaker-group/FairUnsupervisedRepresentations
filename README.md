@@ -20,7 +20,7 @@ This repository collects implementation details for the analyses reported in the
 
 # Data 
 
-<a href="https://data.broadinstitute.org/bbbc/" target="_blank">https://data.broadinstitute.org/bbbc/</a>
+<a href="https://data.broadinstitute.org/bbbc/" target="blank">https://data.broadinstitute.org/bbbc/</a>
 
 
 We used the BBBC021v1 image set, which is a resource freely available to download through the Broad bioimage benchmark collection web server ([https://data.broadinstitute.org/bbbc/](https://data.broadinstitute.org/bbbc/){:target="blank"}). These data capture phenotype changes of cancer cell lines exposed to a compendium of drugs. The imaging set was annotated as benchmark data to develop phenotypic profiling methods and, in particular, to validate their ability to predict the molecular mechanism of action (MOA) for a collection of compounds. Phenotypes were captured, across 10 weeks (batches), by labelling cells with DAPI, Tubulin, and Actin, thereby generating a triplet of single channel images (one per fluorescent marker) for each treatment.
