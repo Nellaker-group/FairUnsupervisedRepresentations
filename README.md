@@ -26,11 +26,6 @@ For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm
 
 ![](examples.png)
 
-<center>
-Figure 1
-</center>
-
-
 # Background and Motivations
 
 # Training
