@@ -1,6 +1,6 @@
 # Adjusting for Confounding in Unsupervised Latent Representations of Images
 
-This repository collects the implementation details for the analyses reported in the paper [Adjusting for Confounding in Unsupervised Latent Representations of Images.](url)
+This repository collects implementation details for the analyses reported in the paper [Adjusting for Confounding in Unsupervised Latent Representations of Images.](url)
 
 # Contents
 
