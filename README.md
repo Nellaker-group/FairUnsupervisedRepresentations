@@ -9,6 +9,7 @@ This repository collects implementation details for the analyses reported in the
 - [Background and Motivations](#background-and-motivations)
 - [Training](#training)
 - [Models](#models)
+- [References](#references)
 
 # Dependencies
 
@@ -31,3 +32,5 @@ For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm
 # Training
 
 # Models
+
+# References
