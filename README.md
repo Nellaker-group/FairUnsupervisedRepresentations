@@ -29,17 +29,19 @@ For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm
 
 # Background and Motivations
 
+[1,2,3](#references)
+
 # Training
 
 # Models
 
 # References
 
-1. [Nick Pawlowski et al., “Automating morphological profiling with generic deep convolutional
-networks”, bioRxiv 2016](https://www.biorxiv.org/content/early/2016/11/02/085118)
+1. Nick Pawlowski et al., [“Automating morphological profiling with generic deep convolutional
+networks”,](https://www.biorxiv.org/content/early/2016/11/02/085118) bioRxiv 2016.
 
-2. [D. Michael Ando et al., “Improving Phenotypic Measurements in
-High-Content Imaging Screens”, bioRxiv 2017](https://www.biorxiv.org/content/early/2017/07/10/161422)
+2. D. Michael Ando et al., [“Improving Phenotypic Measurements in
+High-Content Imaging Screens”,](https://www.biorxiv.org/content/early/2017/07/10/161422) bioRxiv 2017.
 
 3. Alexander Kensert et al., [“Transfer learning with deep convolutional neural network for classifying cellular morphological changes”,](https://www.biorxiv.org/content/early/2018/06/14/345728) bioRxiv 2018.
 
