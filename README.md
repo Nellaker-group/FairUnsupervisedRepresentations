@@ -5,7 +5,7 @@
 - [Dependencies](#Dependencies)
 - [Data](#Data)
 - [Training](#Training)
-- [Model Weights](#Models)
+- [Models](#Models)
 
 # Dependencies
 
