@@ -4,12 +4,13 @@
 
 - [Dependencies](#Dependencies)
 - [Data](#Data)
-- [Model Weights](#Model Weights)
+- [Training](#Training)
+- [Model Weights](#Models)
 
 # Dependencies
 
 # Data 
 
-# Training Protocol 
+# Training
 
-# Model Weights
+# Models
