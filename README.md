@@ -24,6 +24,8 @@ We used the BBBC021v1 image set, which is a resource freely available to downloa
 
 For each image in the BBBC021v1 set, $$\times$$ we detected cell nuclei using the algorithm difference of Gaussians on the DAPI channel. We cropped patches of 128X128 pixels centred around each nucleus, and annotated 128X128X3 images by concatenating patches from the DAPI, Tubulin, and Actin channels. Representative images are displayed in Figure 1.
 
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+
 # Background and Motivations
 
 # Training
