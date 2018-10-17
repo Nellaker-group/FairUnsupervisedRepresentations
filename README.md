@@ -1,13 +1,15 @@
 # Adjusting for Confounding in Unsupervised Latent Representations of Images
 
-# Contents 
+# Contents
 
-[Data](#Data)
+- [Dependencies](#Dependencies)
+- [Data](#Data)
+- [Model Weights](#Model Weights)
+
+# Dependencies
 
 # Data 
 
-
 # Training Protocol 
-
 
 # Model Weights
