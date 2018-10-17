@@ -6,7 +6,7 @@ This repository collects implementation details for the analyses reported in the
 
 - [Dependencies](#dependencies)
 - [Data](#data)
-- [Background and Motivations](#back)
+- [Background and Motivations](#background-and-motivation)
 - [Training](#training)
 - [Models](#models)
 
