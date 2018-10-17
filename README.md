@@ -25,7 +25,7 @@ We used the BBBC021v1 image set, which is a resource freely available to downloa
 For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm difference of Gaussians on the DAPI channel. We cropped patches of <img src="https://latex.codecogs.com/svg.latex?\inline&space;128&space;\times&space;128" title="128 \times 128" /> pixels centred around each nucleus, and annotated <img src="https://latex.codecogs.com/svg.latex?\inline&space;128&space;\times&space;128&space;\times&space;3" title="128 \times 128 \times 3" /> images by concatenating patches from the DAPI, Tubulin, and Actin channels. Representative training images are displayed in Figure 1.
 
 ![](examples.png)
-*Figure 1*
+->Figure 1<-
 
 # Background and Motivations
 
