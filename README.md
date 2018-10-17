@@ -10,6 +10,7 @@
 # Dependencies
 
 `python 3.5.2`
+
 `skimage 0.13.1`
 
 # Data 
