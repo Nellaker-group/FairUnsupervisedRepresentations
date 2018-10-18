@@ -72,7 +72,7 @@ To prove we learned unsupervised representations viod of nuisance (batch effect)
 
 The results of our experiments are collected in Table 1. The first line (<img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=0" title="\large \lambda=0" />) refers to the results before adversarial training, and shows how our deep representations capture phenotypic as well as spurious knowledge. However, as can be seen from the last line, using <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=50" title="\large \lambda=50" /> allowed us to learn cellular embeddings which are uninformative for the batch effect confounder whilst still biologically meaningful.
 
-![](results.png){:height="36px" width="36px"}
+![](results.png)
 
 Please refer to our publication for further details.  
 
