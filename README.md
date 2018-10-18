@@ -51,7 +51,7 @@ In turn, the adversarial classifier is trying to predict imaging batch from CAE 
 
 The adversarial learning protocol comprised three separate phases:
 
-  **1. CAE pretraining.** We trained our autoencoder to reconstruct BBBC021v1 images on a data set uniformly sampled across batches (_i.e._ the training sample comprised 74 635 images per batch).
+    **1. CAE pretraining.** We trained our autoencoder to reconstruct BBBC021v1 images on a data set uniformly sampled across batches (_i.e._ the training sample comprised 74 635 images per batch).
 
   **2. Neural network pretraining.** We trained the classifier on the image set used to pretrain the CAE.
 
