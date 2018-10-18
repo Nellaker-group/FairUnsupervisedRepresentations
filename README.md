@@ -2,12 +2,15 @@
 
 This repository collects implementation details for the analyses reported in the paper [Adjusting for Confounding in Unsupervised Latent Representations of Images.](url)
 
+Add bibtex here...
+
 # Contents
 
 - [Dependencies](#dependencies)
 - [Data](#data)
 - [Background and Motivations](#background-and-motivations)
 - [Training](#training)
+- [Results](#results)
 - [Models](#models)
 - [References](#references)
 
@@ -33,7 +36,7 @@ Previous works using BBBC021v1 data have shown it’s possible to learn deep rep
 
 # Training
 
-We learned unsupervised representations encoding phenotypic knowledge and invariant to the batch effect confounder. This was achieved by implementing an adversarial learning protocol, as depicted in Figure 2.
+We learned unsupervised representations encoding phenotype knowledge and invariant to the batch effect confounder. This was achieved by implementing an adversarial learning protocol, as depicted in Figure 2.
 
 ![](architecture.png)
 
@@ -64,6 +67,12 @@ The adversarial learning protocol comprised three separate phases:
 Steps (A) and (B) were repeated until reaching the equilibrium where both losses plateaued [[4]](#references).
 
 # Results
+
+To prove we learned unsupervised representations viod of nuisance (batch effect) knowledge but biologically meaningful, we used our CAE codings to predict batch and MOA labels. 
+
+The results of our experiments are collected in Table 1. The first line (<img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=0" title="\large \lambda=0" />) refers to the results before adversarial training, and shows how our deep representations capture phenotypic as well as spurious knowledge. However, as can be seen from the last line, using <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=50" title="\large \lambda=50" /> allowed us to learn cellular embeddings which are uninformative for the batch effect confounder whilst still biologically meaningful.
+
+Please refer to our publication for further details.  
 
 # Models
 
