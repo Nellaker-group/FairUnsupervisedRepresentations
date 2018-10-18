@@ -61,7 +61,7 @@ The adversarial learning protocol comprised three separate phases:
     
      **(B)** On a single random batch, we trained the CAE whilst keeping the classifier frozen.
 
-Steps 3A and 3B were repeated until equilibrium where both losses reached a plateau [Louppe].
+Steps (A) and (B) were repeated until reaching the equilibrium where both losses plateaued [[4]](#references).
 
 # Results
 
@@ -76,5 +76,7 @@ networks”,](https://www.biorxiv.org/content/early/2016/11/02/085118) bioRxiv 2
 High-Content Imaging Screens”,](https://www.biorxiv.org/content/early/2017/07/10/161422) bioRxiv 2017.
 
 3. Alexander Kensert et al., [“Transfer learning with deep convolutional neural network for classifying cellular morphological changes”,](https://www.biorxiv.org/content/early/2018/06/14/345728) bioRxiv 2018.
+
+4. Gilles Louppe et al., [Learning to Pivot with Adversarial Networks](https://arxiv.org/abs/1611.01046), NIPS 2017.
 
 
