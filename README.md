@@ -49,6 +49,20 @@ In turn, the adversarial classifier is trying to predict imaging batch from CAE 
 
 <img src="https://latex.codecogs.com/gif.latex?\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta,&space;w)" title="\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta, w)" />
 
+The adversarial learning protocol comprised three separate phases:
+
+  1. **CAE pretraining.** We trained our autoencoder to reconstruct BBBC021v1 images on a data set uniformly sampled across batches (_i.e._ the training sample comprised 74 635 images per batch).
+
+  2. **Neural network pretraining.** We trained the classifier on the image set used to pretrain the CAE.
+
+  3. **Adversarial training.** We cyclically trained the CAE and the adversarial classifier:
+  
+    3.A. For one complete epoch, we trained the adversary whilst keeping the CAE weights frozen.
+    
+    3.B. On a single random batch, we trained the CAE whilst keeping the classifier frozen.
+
+Steps 3A and 3B were repeated until equilibrium where both losses reached a plateau [Louppe].
+
 # Models
 
 # References
