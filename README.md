@@ -78,14 +78,14 @@ Please refer to our publication for further details.
 
 # References
 
-1. Nick Pawlowski et al., [“Automating morphological profiling with generic deep convolutional
+[1] Nick Pawlowski et al., [“Automating morphological profiling with generic deep convolutional
 networks”,](https://www.biorxiv.org/content/early/2016/11/02/085118) bioRxiv 2016.
 
-2. D. Michael Ando et al., [“Improving Phenotypic Measurements in
+[2] D. Michael Ando et al., [“Improving Phenotypic Measurements in
 High-Content Imaging Screens”,](https://www.biorxiv.org/content/early/2017/07/10/161422) bioRxiv 2017.
 
-3. Alexander Kensert et al., [“Transfer learning with deep convolutional neural network for classifying cellular morphological changes”,](https://www.biorxiv.org/content/early/2018/06/14/345728) bioRxiv 2018.
+[3] Alexander Kensert et al., [“Transfer learning with deep convolutional neural network for classifying cellular morphological changes”,](https://www.biorxiv.org/content/early/2018/06/14/345728) bioRxiv 2018.
 
-4. Gilles Louppe et al., [Learning to Pivot with Adversarial Networks](https://arxiv.org/abs/1611.01046), NIPS 2017.
+[4] Gilles Louppe et al., [Learning to Pivot with Adversarial Networks](https://arxiv.org/abs/1611.01046), NIPS 2017.
 
 
