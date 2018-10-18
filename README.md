@@ -68,6 +68,8 @@ The adversarial learning protocol comprised three separate phases:
 
 Steps (A) and (B) were repeated until reaching the equilibrium where both losses plateaued [[4]](#references).
 
+All implementation details can be find in the Python scripts collected in the folder ``./scripts``.
+
 # Results
 
 To prove we learned unsupervised representations viod of nuisance (batch effect) knowledge but biologically meaningful, we used our CAE codings to predict batch and MOA labels. 
