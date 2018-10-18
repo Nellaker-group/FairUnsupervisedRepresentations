@@ -74,6 +74,8 @@ The results of our experiments are collected in Table 1. The first line (<img sr
 
 ![](results.png)
 
+<img src="./results.png" width="48">
+
 Please refer to our publication for further details.  
 
 # Models
