@@ -35,6 +35,8 @@ Previous works using BBBC021v1 data have shown it’s possible to learn deep rep
 
 We learned unsupervised representations encoding phenotypic knowledge and invariant to the batch effect confounder. This was achieved by implementing an adversarial learning protocol, as depicted in Figure 2.
 
+![](architecture.png)
+
 We used a convolutional autoencoder (CAE) to learn data representations capturing biological knowledge, together with an adversarial neural network classifier which tries to predict imaging batch from CAE codings. During training, the adversarial classifier forces the autoencoder to learn latent representations which are uninformative for batch effects.
 
 Unbiased CAE codings were learned using a game theory approach where the autoencoder is trying to learn compressed representations of microscopy images independent of the batch effect variable. This is implemented by solving the following programme:
