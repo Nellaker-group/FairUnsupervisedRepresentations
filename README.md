@@ -68,7 +68,7 @@ The adversarial learning protocol comprised three separate phases:
 
 Steps (A) and (B) were repeated until reaching the equilibrium where both losses plateaued [[4]](#references).
 
-All implementation details can be find in the Python scripts collected in the folder ``./scripts``.
+All Python scripts used to implement adversarial training are collected in the folder ``./scripts``.
 
 # Results
 
