@@ -57,11 +57,13 @@ The adversarial learning protocol comprised three separate phases:
 
   **3. Adversarial training.** We cyclically trained the CAE and the adversarial classifier:
   
-    3.A. For one complete epoch, we trained the adversary whilst keeping the CAE weights frozen.
+  3.A. For one complete epoch, we trained the adversary whilst keeping the CAE weights frozen.
     
-    3.B. On a single random batch, we trained the CAE whilst keeping the classifier frozen.
+  3.B. On a single random batch, we trained the CAE whilst keeping the classifier frozen.
 
 Steps 3A and 3B were repeated until equilibrium where both losses reached a plateau [Louppe].
+
+# Results
 
 # Models
 
