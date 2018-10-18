@@ -33,6 +33,10 @@ Previous works using BBBC021v1 data have shown it’s possible to learn deep rep
 
 # Training
 
+<img src="https://latex.codecogs.com/svg.latex?\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta},&space;w)" title="\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta}, w)" />
+
+<img src="https://latex.codecogs.com/gif.latex?\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta,&space;w)" 
+
 # Models
 
 # References
