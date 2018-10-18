@@ -33,9 +33,15 @@ Previous works using BBBC021v1 data have shown it’s possible to learn deep rep
 
 # Training
 
-<img src="https://latex.codecogs.com/svg.latex?\centering&space;\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta},&space;w)" title="\centering \textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta}, w)" />
+We learned unsupervised representations encoding phenotypic knowledge and invariant to the batch effect confounder. This was achieved by implementing an adversarial learning protocol, as depicted in Figure 2.
+
+We used a convolutional autoencoder (CAE) to learn data representations capturing biological knowledge, together with an adversarial neural network classifier which tries to predict imaging batch from CAE codings. During training, the adversarial classifier forces the autoencoder to learn latent representations (zi) which are uninformative for the batch effect confounder.
+
+We learned unbiased CAE codings using a game theory approach where the autoencoder is trying to learn compressed representations of microscopy images whilst being independent of the batch effect variable. This is implemented by solving the following programme:
 
 <img src="https://latex.codecogs.com/svg.latex?\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta},&space;w)" title="\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta}, w)" />
+
+Where <img src="https://latex.codecogs.com/svg.latex?\inline&space;\lambda" title="\lambda>0" /> is an 
 
 <img src="https://latex.codecogs.com/gif.latex?\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta,&space;w)" title="\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta, w)" />
 
