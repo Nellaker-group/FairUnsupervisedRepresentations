@@ -74,7 +74,7 @@ The results of our experiments are collected in Table 1. The first line (<img sr
 
 ![](results.png)
 
-<img src="./results.png" height="100" width="200">
+<img src="./results.png" height="250" width="500">
 
 Please refer to our publication for further details.  
 
