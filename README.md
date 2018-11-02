@@ -52,7 +52,7 @@ Where <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;
 
 In turn, the adversarial classifier is trying to predict imaging batch from CAE codings by solving: 
 
-<img src="https://latex.codecogs.com/gif.latex?\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta,&space;w)" title="\textrm{min}_{\,w}\,\,\mathcal{L}_{\textrm{adv}}(\theta, w)" />
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" title="\large \min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta}, \mathbf{w})" /></a></p>
 
 The adversarial learning protocol comprised three separate phases:
 
