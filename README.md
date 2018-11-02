@@ -46,7 +46,7 @@ We used a convolutional autoencoder (CAE) to learn data representations capturin
 
 Unbiased CAE codings were learned using a game theory approach where the autoencoder is trying to learn compressed representations of microscopy images independent of the batch effect variable. This is implemented by solving the following programme:
 
-<img src="https://latex.codecogs.com/svg.latex?\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta},&space;w)" title="\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta}, w)" />
+<p align="center"><img src="https://latex.codecogs.com/svg.latex?\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta},&space;w)" title="\textrm{min}_{\,\theta}\,\,\,\mathcal{L}_{\textrm{CAE}}(\theta)-\lambda\,\mathcal{L}_{\textrm{adv}}(\mathbold{\theta}, w)" /></p>
 
 Where <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda>0" title="\large \lambda>0" /> is an hyperparameter, and higher values result in less biased latent representations.
 
