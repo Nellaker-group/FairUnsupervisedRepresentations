@@ -28,7 +28,7 @@ We used the BBBC021v1 image set, which is a resource freely available to downloa
 
 For each image in the BBBC021v1 set, we detected cell nuclei using the algorithm difference of Gaussians on the DAPI channel. We cropped patches of <img src="https://latex.codecogs.com/svg.latex?\inline&space;128&space;\times&space;128" title="128 \times 128" /> pixels centred around each nucleus, and annotated <img src="https://latex.codecogs.com/svg.latex?\inline&space;128&space;\times&space;128&space;\times&space;3" title="128 \times 128 \times 3" /> images by concatenating patches from the DAPI, Tubulin, and Actin channels. Representative training images are displayed in Figure 1.
 
-![](examples.png)
+<p align="center">![](examples.png)</p>
 
 # Background and Motivations
 
@@ -40,7 +40,7 @@ In our work, we showed how it’s possible to learn unbiased representations enc
 
 We learned unsupervised representations encoding phenotype knowledge and invariant to the batch effect confounder. This was achieved by implementing an adversarial learning protocol, as depicted in Figure 2.
 
-![](architecture.png)
+<p align="center">![](architecture.png)</p>
 
 We used a convolutional autoencoder (CAE) to learn data representations capturing biological knowledge, together with an adversarial neural network classifier which tries to predict imaging batch from CAE codings. During training, the adversarial classifier forces the autoencoder to learn latent representations which are uninformative for batch effects.
 
@@ -76,7 +76,7 @@ To prove we learned unsupervised representations viod of nuisance (batch effect)
 
 The results of our experiments are collected in Table 1. The first line (<img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=0" title="\large \lambda=0" />) refers to the results before adversarial training, and shows how our deep representations capture phenotypic as well as spurious knowledge. However, as can be seen from the last line, using <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda=50" title="\large \lambda=50" /> allowed us to learn cellular embeddings which are uninformative for the batch effect confounder whilst still biologically meaningful.
 
-<p align="center"><img src="./results.png" height="300" width="600"></p>
+<p align="center"><img src="./results.png" height="250" width="550"></p>
 
 Please refer to our publication for further details.  
 
