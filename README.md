@@ -81,8 +81,8 @@ Our CAE weights, before (``BroadCAE.pth``) and after (``FairBroadCAE.pth``) adve
 
 | CAE Weights | Size |
 | --- | --- |
-| [BroadCAE.pth](https://drive.google.com/file/d/1y2lifE13BlNXXiQs-47UtSlu_Cbe2ied/view?usp=sharing) | 132M |
-| [FairBroadCAE.pth](https://drive.google.com/file/d/1plWByTaKo3YaCKKXNAhwLg7f5Id0nl8f/view?usp=sharing) | 132M |
+| [BroadCAE.pth](https://drive.google.com/file/d/1y2lifE13BlNXXiQs-47UtSlu_Cbe2ied/view?usp=sharing) | 131 MB |
+| [FairBroadCAE.pth](https://drive.google.com/file/d/1plWByTaKo3YaCKKXNAhwLg7f5Id0nl8f/view?usp=sharing) | 131 MB |
 
 # References
 
