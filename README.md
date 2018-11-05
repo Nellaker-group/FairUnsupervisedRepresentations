@@ -77,7 +77,7 @@ Please refer to our publication for further details.
 
 # Models
 
-Our CAE weights, before (``BroadCAE.pth``) and after (``FairBroadCAE.pth``) adversarial training, are freely available to download usinf the following links:
+Our CAE weights, before (``BroadCAE.pth``) and after (``FairBroadCAE.pth``) adversarial training, are freely available to download using the following links:
 
 | CAE Weights | Size |
 | --- | --- |
