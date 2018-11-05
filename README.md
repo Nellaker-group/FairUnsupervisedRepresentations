@@ -23,6 +23,7 @@ Add bibtex here...
 
 `numpy 1.14.3`
 `torch 0.4.0`
+`torchvision 0.2.1`
 
 # Data 
 
