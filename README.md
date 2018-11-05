@@ -42,7 +42,7 @@ Our model's architecture is comprised of two agents, a convolutional autoencoder
 
 ![](architecture.png)
 
-The learning happens in two step:
+The learning happens in two steps:
 
 - **Pretraining phase**
 
