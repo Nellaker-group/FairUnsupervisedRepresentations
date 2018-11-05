@@ -48,22 +48,22 @@ The learning happens in two steps:
 
 - **Adversarial phase**
 
-**1. Pretraining phase.** We annotated a data set by uniformly sampling images across batches, _i.e._ we collected a training sample comprised of 74 635 examples per imaging batch. First of all, we used such data set for training the autoencoder to learn compressed representations of microscopy images (all details can be found in the script ``PretrainCAE.py`` in the folder ``./scripts``). Subsequently, using CAE codes as inputs, we train the adversarial classifier to discriminate batches (see ``PretrainNeuralNetwork.py`` in the folder ``scripts``).
+**1. Pretraining phase.** We annotated a data set by uniformly sampling images across batches, _i.e._ we collected a training sample comprised of 74 635 examples per imaging batch. First of all, we used such data set for training the autoencoder to learn compressed representations of microscopy images (all details can be found in the script ``PretrainCAE.py`` in the folder ``./scripts``). Subsequently, using CAE codes as inputs, we trained the adversarial classifier to discriminate batches (see ``PretrainNeuralNetwork.py`` in the folder ``scripts``).
 
 
 **2. Adversarial phase.** This phase is comprised of 2 steps:
 
-(A) First we solve:
+(A) First we solved:
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\min\limits_{\boldsymbol{\theta}}\,\,\,\mathcal{L}_{\textrm{CAE}}(\boldsymbol{\theta})&plus;\lambda\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\min\limits_{\boldsymbol{\theta}}\,\,\,\mathcal{L}_{\textrm{CAE}}(\boldsymbol{\theta})&plus;\lambda\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" title="\large \min\limits_{\boldsymbol{\theta}}\,\,\,\mathcal{L}_{\textrm{CAE}}(\boldsymbol{\theta})+\lambda\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta}, \mathbf{w})" /></a></p>
 
-Crucially, in this step we only update the CAE weights, and keep the classifier frozen. In this step we minimise the autoencoder’s reconstruction loss whilst ensuring the CAE codes are uninformative for the batch effect confounder. <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda>0" title="\large \lambda>0" /> is an hyperparameter to tune, and higher values result in less biased latent representations.
+Crucially, in this step we only updated the CAE weights, and kept the classifier frozen. With this step, we minimised the autoencoder’s reconstruction loss whilst ensuring the CAE codes are uninformative for the batch effect confounder. <img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\lambda>0" title="\large \lambda>0" /> is an hyperparameter to tune, and higher values result in less biased latent representations.
 
-(B) Then we solve:
+(B) Then we solved:
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta},&space;\mathbf{w})" title="\large \min\limits_{\mathbf{w}}\,\,\,\mathcal{L}_{\textrm{adv}}(\boldsymbol{\theta}, \mathbf{w})" /></a></p>
 
-In this step we only update the classifier’s weights. Steps (A) and (B) were repeated until equilibrium where both losses reached a plateau [[4]](#references). See ``AdversarialTraining.py`` in the folder ``scripts`` for all implementation details.
+In this step we only updated the classifier’s weights. Steps (A) and (B) were repeated until equilibrium where both losses reached a plateau [[4]](#references). See ``AdversarialTraining.py`` in the folder ``scripts`` for all implementation details.
 
 # Results
 
