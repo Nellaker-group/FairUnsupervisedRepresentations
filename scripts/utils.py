@@ -1,6 +1,8 @@
 import numpy as np
 import PIL
 
+from torch.utils.data import Dataset
+
 ###
 
 class CellDataset(Dataset):
