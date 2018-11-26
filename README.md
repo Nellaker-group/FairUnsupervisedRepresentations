@@ -4,7 +4,8 @@ This repository collects implementation details for the analyses reported in the
 
 If you find our analyses helpful for your project, please consider citing our publication:
 
-```@article{glastonbury2018adjusting,
+```
+@article{glastonbury2018adjusting,
   title={Adjusting for Confounding in Unsupervised Latent Representations of Images},
   author={Glastonbury, Craig A and Ferlaino, Michael and Nell{\aa}ker, Christoffer and Lindgren, Cecilia M},
   journal={arXiv preprint arXiv:1811.06498},
